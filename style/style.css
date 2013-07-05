@@ -6,8 +6,9 @@
 
 body
 {
-    background: url('../images/background.jpg') center no-repeat;
-    height: 100%;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     min-width: 600px;
     -webkit-font-smoothing: antialiased;
 }
