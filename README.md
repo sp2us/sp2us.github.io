@@ -1,2 +1,2 @@
-Welcome to Space++ personal website/blog
+Welcome to Space++ website/blog
 ===
