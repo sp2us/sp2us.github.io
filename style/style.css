@@ -6,7 +6,7 @@
 
 body
 {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body
     width:  200px;
     height: 200px;
     margin: 15% auto 0;
-    background: rgba(127, 127, 127, 0.7);
+    background: rgba(255, 132, 0, 0.45);
     border-radius: 50%;
     text-align: center;
 }

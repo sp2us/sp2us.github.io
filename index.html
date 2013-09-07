@@ -30,15 +30,9 @@
     <script>
         $(document).ready(function () {
             var awesomeness = new Array("amazing", "awesome", "incredible");
-            var count = 0;
-
-            setInterval($("#awesome").children().fadeOut(300, function () {
-                $("#awesome").html(awesomeness[count++]);
-                if (count == awesomeness.length) count = 0;
-            }), 3000);
-        })
-
-        console.log("Test");
+			$height = $(window).height() * (2/7);
+			$('.logo .logo-img').css("margin-top", $height);
+        });
     </script>
 </body>
 </html>
